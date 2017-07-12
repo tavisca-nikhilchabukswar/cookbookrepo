@@ -3,7 +3,7 @@
 # Recipe:: default
 # this is recipe to download and run filebeat
 # Copyright:: 2017, The Authors, All Rights Reserved.
-
+# !cb
 directory node['filebeat_cookbook_v2']['filebeat_directory'] do
 	action :create
 end
